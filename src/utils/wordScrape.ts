@@ -1,7 +1,7 @@
 // @ts-nocheck
 import axios from "axios";
 import { load } from "cheerio";
-import { wordKinds, wordScrape } from "../../types/wordReferenceTypes";
+import type { wordKinds, wordScrape } from "../../types/wordReferenceTypes";
 
 export const wordWebScrape = async (verb: string) => {
 	const page = `https://www.wordreference.com/conj/esverbs.aspx?v=${verb}`;
