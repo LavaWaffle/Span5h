@@ -1,7 +1,7 @@
 // @ts-nocheck
 import axios from "axios";
 import { load } from "cheerio";
-import type { conjTypes, spanishDict } from "../../types/spanishDictTypes";
+import { conjTypes, type spanishDict } from "../../types/spanishDictTypes";
 
 export const spanWebScrape = async (verb: string) => {
 	const start =  Date.now();
